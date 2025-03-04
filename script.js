@@ -22,7 +22,7 @@ const emotions = {
         brightness: 0.8,
         rhythmStability: 0.7
     },
-    sad: {
+    normal: {
         energy: 0.3,
         pitch: 0.3,
         tempo: 0.4,
@@ -400,7 +400,7 @@ function displayResults(analysis, features) {
 
     const emotionColors = {
         happy: '#FFD700',
-        sad: '#4169E1',
+        normal: '#4169E1',
         angry: '#FF4500',
         neutral: '#808080',
         excited: '#FF1493',
