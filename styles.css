@@ -21,6 +21,32 @@ nav {
     align-items: center;
 }
 
+.social-links {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: var(--text-secondary);
+   
+    
+}
+
+.social-links a {
+    color: white;
+    transition: all 0.3s ease;
+    padding: 0.5rem;
+}
+
+.social-links a:hover {
+    color: var(--accent);
+    transform: translateY(-3px);
+}
+
+.social-links i {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
 .logo {
     display: flex;
     align-items: center;
